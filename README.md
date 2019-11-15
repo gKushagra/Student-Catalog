@@ -1,11 +1,8 @@
 # Student-Catalog
-A web application in which Admin can Add, Access, Modify and Remove a current student’s record. 
+Web Application to store student’s information- ID, First and Last Name, e-Mail, Mobile, Courses & GPA.
 
-The database stores students’ ID, First Name, Last Name, E-mail, Mobile, GPA and Courses in which they are enrolled. 
+1. Admin can Access, Modify and Remove a student’s record. The database is implemented in MySQL.
+2. Each record can be accessed using ID which is unique to each student. Admin can retrieve all records sorted GPA wise.
+3. Login authentication for Admin. Also, building Android application for Student Catalog using Android Studio.
 
-Each record is accessed using ID which is unique to each student. 
-
-Once you retrieve the data, it is stored in an ArrayList. 
-
-Technologies used: Java 8, JDBC, JSP, MySQL 5, Tomcat 7, Eclipse JEE
-
+Technologies/Tools: Java, JSP, Servlets, MySQL, Bootstrap, Tomcat, Eclipse, Android Studio
